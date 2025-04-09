@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MedBot Surgical</title>
+  <link href="css/style.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/css/glightbox.min.css" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="image/logo.png" alt="logo">
+      </a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Trang chủ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">Giới thiệu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Công nghệ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Hoạt Động</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Đội ngũ</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Liên hệ</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="vh-100 d-flex justify-content-center align-items-center text-white">
+    <div class="overlay position-absolute w-100 h-100" style="background-color: rgba(0, 0, 0, 0.4); z-index:0;"></div>
+    <div class="text-center position-relative" data-aos="fade-up" style="z-index:1;">
+      <h1>MedBot Surgical</h1>
+      <p>Tương lai của phẫu thuật bằng robot đã đến</p>
+      <a href="#about" class="btn-get-started scrollto">
+        <i class="fa fa-chevron-down bounce-arrow"></i>
+      </a>      
+    </div>
+  </section>
+  
+  
+
+  <!-- About Section -->
+  <section id="about" class="py-5">
+    <div class="container" data-aos="fade-up">
+      <h2>Về MedBot</h2>
+      <p>MedBot là robot phẫu thuật tiên tiến được thiết kế để hỗ trợ bác sĩ phẫu thuật với độ chính xác và trí tuệ vượt trội. Được phát triển bởi các kỹ sư và bác sĩ hàng đầu, sứ mệnh của chúng tôi là cách mạng hóa ngành y tế với công nghệ robot ứng dụng trí tuệ nhân tạo nhằm nâng cao kết quả điều trị, giảm thiểu rủi ro và giúp bệnh nhân phục hồi nhanh chóng hơn.</p>
+    </div>
+  </section>
+
+  <!-- Technology Section -->
+  <section id="services" class="bg-light py-5">
+    <div class="container">
+      <h2 data-aos="fade-up">Công nghệ cốt lõi</h2>
+      <div class="row">
+        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="100">
+          <i class="fas fa-brain fa-3x mb-3"></i>
+          <h4>Trí tuệ nhân tạo</h4>
+          <p>Phân tích và hỗ trợ phẫu thuật theo thời gian thực với thuật toán AI thông minh.</p>
+        </div>
+        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="200">
+          <i class="fas fa-microchip fa-3x mb-3"></i>
+          <h4>Kỹ thuật chính xác</h4>
+          <p>Hệ thống điều khiển vi mô cho thao tác phẫu thuật tinh vi và xâm lấn tối thiểu.</p>
+        </div>
+        <div class="col-md-4 text-center" data-aos="zoom-in" data-aos-delay="300">
+          <i class="fas fa-eye fa-3x mb-3"></i>
+          <h4>Hệ thống thị giác</h4>
+          <p>Camera 3D độ phân giải cao giúp quan sát rõ ràng và chính xác trong quá trình phẫu thuật.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="py-5 text-white text-center bg-secondary">
+    <div class="container" data-aos="fade-up">
+      <h2>Tham gia cuộc cách mạng phẫu thuật</h2>
+      <p>Hàng trăm bệnh viện trên toàn thế giới đã tin tưởng và sử dụng MedBot.</p>
+      <a href="#contact" class="btn btn-light">Liên hệ ngay</a>
+    </div>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="portfolio" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">hoạt động MedBot</h2>
+      <div class="row g-4">
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <a href="#" class="glightbox">
+            <img src="image/canh-tay.jpg.webp" alt="Cánh tay phẫu thuật" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <a href="#" class="glightbox">
+            <img src="image/Phong-mo.jpg" alt="Phòng mổ thông minh" class="img-fluid">
+          </a>
+        </div>
+        <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <a href="#" class="glightbox">
+            <img src="image/AI.png" alt="Giao diện AI" class="img-fluid">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Section -->
+  <section id="team" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4" data-aos="fade-up">Đội ngũ sáng lập</h2>
+      <div class="row g-4">
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="100">
+          <img src="image/nguoi-4.jpg" class="rounded-circle mb-2" width="120" height="120">
+          <h5>GS. Xinh</h5>
+          <p>Chuyên gia phẫu thuật</p>
+        </div>
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="200">
+          <img src="image/nguoi-2.jpg" class="rounded-circle mb-2" width="120" height="120">
+          <h5>Extra Nguyễn</h5>
+          <p>Kỹ sư trưởng về robot</p>
+        </div>
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="300">
+          <img src="image/nguoi-1.jpg" class="rounded-circle mb-2" width="120" height="120">
+          <h5>Michael Lê</h5>
+          <p>Kiến trúc sư AI</p>
+        </div>
+        <div class="col-md-3 text-center" data-aos="zoom-in" data-aos-delay="400">
+          <img src="image/nguoi-3.jpg" class="rounded-circle mb-2" width="120" height="120">
+          <h5>Sophia Trần</h5>
+          <p>Tư vấn y tế</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+<section id="contact" class="py-5">
+  <div class="container">
+    <div class="text-center mb-5" data-aos="fade-up">
+      <h2>Liên hệ với chúng tôi</h2>
+      <p>Hãy để lại thông tin, chúng tôi sẽ phản hồi sớm nhất có thể.</p>
+    </div>
+    <div class="row">
+      <!-- Thông tin liên hệ -->
+      <div class="col-md-5" data-aos="fade-right">
+        <div class="mb-4">
+          <i class="fas fa-map-marker-alt me-2 text-primary"></i><strong>Địa chỉ:</strong>
+          <p class="mb-2 ms-4">Tòa nhà ABC, Quận 1, TP.HCM</p>
+        </div>
+        <div class="mb-4">
+          <i class="fas fa-phone me-2 text-primary"></i><strong>Điện thoại:</strong>
+          <p class="mb-2 ms-4">+84 909 123 456</p>
+        </div>
+        <div class="mb-4">
+          <i class="fas fa-envelope me-2 text-primary"></i><strong>Email:</strong>
+          <p class="mb-2 ms-4">info@medbot.vn</p>
+        </div>
+        <iframe src="https://maps.google.com/maps?q=ho%20chi%20minh&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"></iframe>
+      </div>
+
+      <!-- Form liên hệ -->
+      <div class="col-md-7" data-aos="fade-left">
+        <form>
+          <div class="row">
+            <div class="col-md-6 mb-3">
+              <input type="text" class="form-control" placeholder="Họ và tên" required>
+            </div>
+            <div class="col-md-6 mb-3">
+              <input type="email" class="form-control" placeholder="Email" required>
+            </div>
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Tiêu đề">
+          </div>
+          <div class="mb-3">
+            <textarea class="form-control" rows="5" placeholder="Nội dung tin nhắn"></textarea>
+          </div>
+          <div class="text-end">
+            <button type="submit" class="btn btn-primary">Gửi tin nhắn</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    © 2025 MedBot Surgical. Bản quyền thuộc về chúng tôi.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.2.0/glightbox.min.js"></script>
+  <script>
+    AOS.init();
+    const lightbox = GLightbox({ selector: '.glightbox' });
+  </script>
+</body>
+</html>
