@@ -147,3 +147,6 @@ img:hover {
     transform: translateY(5px);
   }
 }
+.fb-customerchat {
+  z-index: 9999 !important;
+}
