@@ -150,3 +150,58 @@ img:hover {
 .fb-customerchat {
   z-index: 9999 !important;
 }
+
+/* ===== FOOTER STYLE ===== */
+.custom-footer {
+  background: linear-gradient(135deg, #003366, #00509d); /* Gradient xanh công nghệ */
+  color: #f1f1f1;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.custom-footer h5 {
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #ffffff; /* chữ trắng */
+}
+
+.custom-footer p {
+  margin-bottom: 10px;
+  color: #e0e0e0; /* chữ phụ nhẹ */
+}
+
+.custom-footer a {
+  color: #dcdcdc;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 8px;
+  transition: all 0.3s ease;
+}
+
+.custom-footer a:hover {
+  color: #ffd700; /* vàng sáng khi hover */
+  padding-left: 5px;
+}
+
+.custom-footer .contact-info i {
+  color: #ffc107; /* icon màu vàng nổi bật */
+  margin-right: 8px;
+}
+
+.custom-footer .fb-box iframe {
+  border-radius: 6px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 150px;
+}
+
+.footer-bottom {
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  margin-top: 30px;
+  padding-top: 15px;
+  font-size: 0.9rem;
+  color: #fff;
+  text-align: center;
+}
+
