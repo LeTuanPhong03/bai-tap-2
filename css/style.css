@@ -62,10 +62,7 @@ section {
   opacity: 0.8;
 }
 /* end hero */
-
-footer {
-  font-size: 14px;
-}
+/* img */
 
 img {
   object-fit: cover;
@@ -78,6 +75,7 @@ img:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+/* end img */
 #portfolio img {
   aspect-ratio: 4 / 3;
   object-fit: cover;
@@ -142,6 +140,9 @@ img:hover {
 }
 
 /* ===== FOOTER STYLE ===== */
+footer {
+  font-size: 14px;
+}
 .custom-footer {
   background: linear-gradient(135deg, #003366, #00509d); /* Gradient xanh công nghệ */
   color: #f1f1f1;
@@ -153,12 +154,12 @@ img:hover {
 .custom-footer h5 {
   font-weight: 700;
   margin-bottom: 20px;
-  color: #ffffff; /* chữ trắng */
+  color: #ffffff; 
 }
 
 .custom-footer p {
   margin-bottom: 10px;
-  color: #e0e0e0; /* chữ phụ nhẹ */
+  color: #e0e0e0;
 }
 
 .custom-footer a {
@@ -170,12 +171,12 @@ img:hover {
 }
 
 .custom-footer a:hover {
-  color: #ffd700; /* vàng sáng khi hover */
+  color: #ffd700;
   padding-left: 5px;
 }
 
 .custom-footer .contact-info i {
-  color: #ffc107; /* icon màu vàng nổi bật */
+  color: #ffc107; 
   margin-right: 8px;
 }
 
