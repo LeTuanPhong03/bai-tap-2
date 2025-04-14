@@ -64,13 +64,6 @@ section {
 #hero .btn-scroll i {
   font-size: 48px;
 }
-#hero .btn-scroll {
-  transition: 0.4s;
-  color: var(--default-color);
-  display: block;
-  margin-top: 30px;
-  animation: btn-up-down 1s ease-in-out infinite alternate-reverse both;
-}
 /* end hero */
 
 footer {
